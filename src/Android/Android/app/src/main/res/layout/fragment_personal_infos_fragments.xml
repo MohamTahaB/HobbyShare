@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileFragment"
+    android:orientation="vertical"
+    android:id="@id/personal_infos_fragments"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/my_profile_infos"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center|left"
+            android:text="@string/Mon_profil"
+            android:textColor="#4975F2"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:layout_marginHorizontal="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/photo_myprofile"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/my_pseudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="@string/Ines"
+                android:textColor="#070707"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/my_pseudo_infos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EDE9E9"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="10dp"
+                android:shadowColor="#0C0C0C"
+                android:text="Pseudo :\n ines.kessal"
+                android:textColor="#0C0C0C"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/editButtonInfos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#FDFBFB"
+                android:clickable="true"
+                android:src="@drawable/baseline_edit_black_18"
+                app:backgroundTint="#FBFBFB" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/my_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDE9E9"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="10dp"
+                android:text="Dis-en plus sur toi :\n étudiante"
+                android:textColor="#0C0C0C"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/editButtonFriendList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#FDFBFB"
+                android:clickable="true"
+                android:src="@drawable/baseline_edit_black_18"
+                app:backgroundTint="#FBFBFB" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/monprofil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/my_email"
+                android:layout_width="364dp"
+                android:layout_height="102dp"
+                android:background="#EDE9E9"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="10dp"
+                android:shadowColor="#0C0C0C"
+                android:text="@string/email_n_ines_kessal_telecom_paris_fr"
+                android:textColor="#0C0C0C"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/editButtonGroupList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#FDFBFB"
+                android:clickable="true"
+                android:src="@drawable/baseline_edit_black_18"
+                app:backgroundTint="#FBFBFB" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

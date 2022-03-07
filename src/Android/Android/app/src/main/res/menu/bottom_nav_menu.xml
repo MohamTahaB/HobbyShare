@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_white_24dp"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/navigation_groupes"
+        android:enabled="true"
+        android:icon="@drawable/baseline_groups_white_24dp"
+        android:title="@string/mes_groupes" />
+
+    <item
+        android:id="@+id/navigation_my_profile"
+        android:enabled="true"
+        android:icon="@drawable/baseline_face_white_24dp"
+        android:title="@string/Mon_profil" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:enabled="true"
+        android:icon="@drawable/baseline_chat_white_24dp"
+        android:title="@string/Chat" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:enabled="true"
+        android:icon="@drawable/baseline_settings_white_24dp"
+        android:title="@string/paramètres" />
+</menu>

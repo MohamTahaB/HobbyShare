@@ -1,0 +1,24 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Anglais</item>
+        <item>Français</item>
+        <item>Espagnol</item>
+        <item>Allemand</item>
+        <item>Italien</item>
+        <item>Chinois</item>
+        <item>Arabe</item>
+        <item>Japonais</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>a</item>
+        <item>français</item>
+        <item>espagnol</item>
+        <item>allemand</item>
+        <item>italien</item>
+        <item>chinois</item>
+        <item>arabe</item>
+        <item>japonais</item>
+    </string-array>
+</resources>

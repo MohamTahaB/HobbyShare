@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_container" type="id" />
+    <item name="my_friends_list_fragment" type="id" />
+    <item name="my_friend_profile_fragment" type="id" />
+    <item name="my_profile_fragment" type="id" />
+    <item name="my_group_list_fragment" type="id" />
+    <item name="home_search_view" type="id" />
+    <item name="chat_fragment" type="id" />
+    <item name="message_fragment" type="id" />
+    <item name="personal_infos_fragments" type="id" />
+    <item name="fragment_home" type="id" />
+    <item name="list_view_home" type="id" />
+</resources>

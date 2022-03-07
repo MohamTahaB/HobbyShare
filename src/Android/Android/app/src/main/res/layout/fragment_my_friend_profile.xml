@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileFragment"
+    android:orientation="vertical"
+    android:id="@id/my_friend_profile_fragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/monprofil"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center|left"
+            android:text="@string/profil_de_cynthia"
+            android:textColor="#4975F2"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/photo_friend_profile"
+                android:layout_width="213dp"
+                android:layout_height="match_parent"
+                tools:src="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/block_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:background="#4975F2"
+                    android:text="@string/bloquer"
+                    android:textColor="#F4F4F4" />
+
+                <Button
+                    android:id="@+id/message_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:background="#4975F2"
+                    android:text="@string/message"
+                    android:textColor="#F4F4F4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/my_friends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDE9E9"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="10dp"
+                android:text="@string/ses_amis_n_antoine_mathieu_aline"
+                android:textColor="#0C0C0C"
+                android:textSize="25sp"
+                android:textStyle="" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/my_groups"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:background="#EDE9E9"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="10dp"
+                android:shadowColor="#0C0C0C"
+                android:text="Ses groupes\nSurf, tennis, piano"
+                android:textColor="#0C0C0C"
+                android:textSize="25sp"
+                android:textStyle="" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/my_infos"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#EDE9E9"
+                android:ems="10"
+                android:gravity="start|top"
+                android:padding="10dp"
+                android:shadowColor="#0C0C0C"
+                android:text="@string/ses_informations_n_22ans_tudiante_cynthia_dupont_gmail_com"
+                android:textColor="#0C0C0C"
+                android:textSize="25sp"
+                android:textStyle="" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

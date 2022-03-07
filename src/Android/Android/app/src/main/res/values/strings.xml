@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">HobbyShare</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="hobby_share">Hobby Share</string>
+    <string name="welcome">Welcome!</string>
+    <string name="bienvenue_dans_hobbyshare">Bienvenue sur HobbyShare !</string>
+    <string name="logo">logo</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="title_activity_research">ResearchActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="groupes">Groupes</string>
+    <string name="mon_profil">Mon_profil</string>
+    <string name="chat">chat</string>
+    <string name="param_tres">Parametres</string>
+    <string name="bottom_navigation_menu_android">menu</string>
+    <string name="bottom_navigation_groupes_android">bottom_navigation_menu_android</string>
+    <string name="menu">menu</string>
+    <string name="bonjour_ines">Bonjour Ines</string>
+    <string name="paramètres">Paramètres</string>
+    <string name="Chat">Chat</string>
+    <string name="Mon_profil">Mon profil</string>
+    <string name="importer_une_photo">Importer une photo</string>
+    <string name="nom">Nom</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="email">Email</string>
+    <string name="confirmer_le_mot_de_passe">Confirmer le mot de passe</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Ines">Ines</string>
+    <string name="mes_informations_n_25_ans_tudiante_n_ines_kessal_telecom_paris_fr">Mes informations\n 25 ans, étudiante\n ines.kessal@telecom-paris.fr</string>
+    <string name="profil_d_aline">Profil d\'Aline</string>
+    <string name="aline">Aline</string>
+    <string name="ses_groupes_n_baseball_tennis_couture_piano">Ses groupes\n Baseball, Tennis, Couture, Piano</string>
+    <string name="ses_amis_n_antoine_mathieu_aline">Ses amis\nAntoine, Mathieu, Aline</string>
+    <string name="ses_informations_n_22ans_tudiante_n_aline_dupont_telecom_paris_fr">Ses informations\n 22ans, étudiante,\n aline.dupont@telecom-paris.fr</string>
+    <string name="mes_informations_n_21_ans_tudiante_n_ines_kessal_telecom_paris_fr">mes_informations_n_21_ans_tudiante_n_ines_kessal_telecom_paris_fr</string>
+    <string name="mes_informations_n_21ans_n_tudiante_n_ines_kessal_telecom_paris_fr">Mes informations\n21 ans\nEtudiante\nines.kessal@telecom-paris.fr</string>
+    <string name="mes_amis">Mes amis</string>
+    <string name="cynthia_n_passionn_e_de_surf_et_de_yoga">Cynthia\n Passionnée de surf et de yoga</string>
+    <string name="sophie_n_toujours_partante_pour_une_partie_de_bridge_entre_amis">Sophie \nToujours partante pour une partie de bridge entre amis</string>
+    <string name="arthur_fan_de_cin_ma_et_de_photographie">Arthur Fan de cinéma et de photographie</string>
+    <string name="damien_n_fan_de_cin_ma_et_photographie">Damien\n Fan de cinéma et photographie</string>
+    <string name="mes_amis_n_antoine_mathieu_aline">Mes amis\nAntoine, Mathieu, Aline</string>
+    <string name="profil__aline">Profil d\'Aline</string>
+    <string name="profil_de_cynthia">Profil de Cynthia</string>
+    <string name="ses_informations_n_22ans_tudiante_cynthia_dupont_gmail_com">Ses informations\n22 ans, étudiante, cynthia@gmail.com</string>
+    <string name="message">Message</string>
+    <string name="bloquer">Bloquer</string>
+    <string name="mes_groupes_n_golf_tennis_foot_piano">Mes groupes\nGolf, Tennis, Foot, Piano</string>
+    <string name="groupe_de_golf">⛳ Groupe Golf</string>
+    <string name="groupe_de_football">Groupe de Football</string>
+    <string name="groupe_de_tennis">Groupe de Tennis</string>
+    <string name="mes_groupes">Mes groupes</string>
+    <string name="hello">Hello!</string>
+    <string name="rechercher_un_groupe_un_ami">Rechercher un groupe/un ami</string>
+    <string name="notifications">Notifications</string>
+    <string name="marion_vous_a_envoy_une_invitation">🤙 Marion vous a envoyé une invitation</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pseudo_n">Pseudo :\n</string>
+    <string name="email_n_ines_kessal_telecom_paris_fr">Email :\n ines.kessal@telecom-paris.fr</string>
+    <string name="hello_comment_a_va_ca_te_dit_une_partie_de_scrabble">Hello comment ça va? Ca te dit une partie de scrabble?</string>
+    <string name="cynthia">Cynthia</string>
+</resources>

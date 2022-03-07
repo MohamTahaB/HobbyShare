@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Light"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/s_inscrire"
+        android:textColor="#4975F2"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/register_photo"
+            android:layout_width="171dp"
+            android:layout_height="81dp"
+            android:layout_gravity="left"
+            android:layout_marginHorizontal="26dp" />
+
+        <Button
+            android:id="@+id/register_import_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#4975F2"
+            android:minHeight="48dp"
+            android:padding="15dp"
+            android:text="@string/importer_une_photo"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="34dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/register_editTextTextPersonName"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="@string/nom"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/register_editTextTextPersonName2"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="@string/pr_nom"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/register_editTextDate"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Date de naissance"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/register_editTextTextPersonName3"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/register_editTextTextPassword"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/register_editTextTextPassword2"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="@string/confirmer_le_mot_de_passe"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="#4975F2"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:text="@string/s_inscrire"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
